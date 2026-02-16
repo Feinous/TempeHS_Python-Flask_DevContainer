@@ -1,7 +1,6 @@
 # Project Title
 
-Simple overview of use/purpose.
-
+My first Ai chatbot
 ## Description
 
 An in-depth paragraph about your project and overview of use.
@@ -37,8 +36,8 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+ex. phoenix
+ex. (https://github.com/Feinous)
 
 ## Version History
 
