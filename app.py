@@ -61,11 +61,10 @@ def chat():
     if not user_message:
         return jsonify({"response": "Please enter a message!"})
 
-
-if len(user_message) > 500:
-    return jsonify(
-        {"response": "Message too long! Please keep it under 500 characters."}
-    )
+    if len(user_message) > 500:
+        return jsonify(
+            {"response": "Message too long! Please keep it under 500 characters."}
+        )
 
     # Safety check for crisis keywords
     if check_for_crisis(user_message):
